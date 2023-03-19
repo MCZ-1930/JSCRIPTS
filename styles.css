@@ -1,17 +1,5 @@
 /* Meu primeiro stylesheet*/
 
-input:checked + p{
-    background: red;
-}
-
-input:not(:checked)+p {
-    background: yellow;
-}
-p:not(.meio) {
-    color: blue;
-
-}
-
-.heading :hover {
-    color: violet;
+ul li ::after {
+    content: ' - ';
 }
