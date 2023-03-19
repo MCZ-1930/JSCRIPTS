@@ -1,5 +1,3 @@
-/* Meu primeiro stylesheet*/
-
-ul li ::after {
-    content: ' - ';
+.form-field::placeholder{
+    color: red;
 }
