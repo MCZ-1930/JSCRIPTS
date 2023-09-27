@@ -11,22 +11,20 @@ html {
     margin: 0;
     padding: 0;
 }
-.pai {
-    width: 50rem; /* 500px */
-    height: 100vh;
-    background: yellow;
-}
-.pai > div {
-    width: 50%;
-    height: 50rem;
-    background: blue;
-}
+
 p {
-    font-size: 1.6rem;
-}
-.color-two {
-    background:turquoise;
-}
-.color-three {
-    background: violet;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    direction:ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-align:left;
+    /* text-decoration: overline underline line-through; */
+    /* text-indent: 50px; */
+    /* text-shadow: -2px 2px 9px red; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-transform: uppercase;
 }
